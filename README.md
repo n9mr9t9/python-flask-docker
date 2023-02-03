@@ -24,7 +24,7 @@ To visualize the dendrogram along with the labels for each instance:
 import scipy.cluster.hierarchy as shc
 plt.figure(figsize=(10, 7))  
 plt.title("Dendrograms")  
-dend = shc.dendrogram(shc.linkage(df1, method='ward'), labels = df.index)
+dend = shc.dendrogram(shc.linkage(df1, method='ward'), labels = df1.index)
 ```
 
 ## Newick File
