@@ -1,0 +1,8 @@
+Flask==2.1.0
+pandas==1.2.1
+numpy==1.19.5
+joblib==1.0.0
+scikit_learn==0.24.1
+matplotlib
+fastcluster
+typing
